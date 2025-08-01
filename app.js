@@ -1,9 +1,11 @@
-import {express } from "express";
-
+import express from "express";
+import { PORT } from "./config/env.js";
 const app = express();
 app.use("/", express.json());
 
+app.get("/", (req, res) => {
+  res.send("subscription-tracker API");
+});
 
-
-const PORT = process.env.PORT || 80;
-app.listen(PORT, () => console.log("Listen on port", PORT));
+app.listen(PORT, () => console.log(`http://localhost:${PORT}`));
+export default app;
