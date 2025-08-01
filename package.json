@@ -1,0 +1,31 @@
+{
+  "name": "subscription-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "No tests",
+    "start": "node ./app.js",
+    "server": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mix-4dev/Prod-management-system.git"
+  },
+  "keywords": [],
+  "author": "Mix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mix-4dev/Prod-management-system/issues"
+  },
+  "homepage": "https://github.com/Mix-4dev/Prod-management-system#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "eslint": "^9.32.0",
+    "globals": "^16.3.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
